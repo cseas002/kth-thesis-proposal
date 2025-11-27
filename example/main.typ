@@ -1,4 +1,4 @@
-#import "@preview/kth-proposal:0.1.0": proposal, section
+#import "@preview/kth-thesis-proposal:0.1.0": proposal, section
 
 #show: proposal
 
