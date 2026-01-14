@@ -47,19 +47,19 @@ Create a new `.typ` file:
 
 #show: proposal
 
-#section("Name and e-mail address of the student")[
-  Your Name \
-  your.email\@kth.se
-]
+= Name and e-mail address of the student
 
-#section("Thesis title")[
-  Your preliminary thesis title here
-]
+John Doe \
+#link("mailto:john.doe@kth.se")
 
-#section("Background")[
-  Describe the research area, how the project connects to current research,
-  why it's interesting, and the organization's interest in it.
-]
+= Thesis title
+
+Your preliminary thesis title here
+
+= Background
+
+Describe the research area, how the project connects to current research,
+why it's interesting, and the organization's interest in it.
 
 // ... continue with other sections
 ```
@@ -89,30 +89,30 @@ The template includes all 13 official KTH degree project proposal sections:
 
 #show: proposal
 
-#section("Name and e-mail address of the student")[
-  Jane Doe \
-  jane.doe\@kth.se
-]
+= Name and e-mail address of the student
 
-#section("Thesis title")[
-  Machine Learning Approaches for Sustainable Energy Optimization
-]
+Jane Doe \
+#link("mailto:jane.doe@kth.se")
 
-#section("Background")[
-  This project is carried out within the field of sustainable energy systems,
-  focusing on the application of machine learning to optimize energy consumption
-  in smart buildings. The project connects to current research in both AI and
-  sustainability, addressing the growing need for energy-efficient solutions.
-  
-  The project is of interest to both the academic community and industry
-  partners working on smart city initiatives. Company X is particularly
-  interested in this research as it aligns with their sustainability goals.
-]
+= Thesis title
 
-#section("Research question")[
-  Can machine learning models accurately predict and optimize energy consumption
-  patterns in commercial buildings to reduce overall energy usage by at least 20%?
-]
+Machine Learning Approaches for Sustainable Energy Optimization
+
+= Background
+
+This project is carried out within the field of sustainable energy systems,
+focusing on the application of machine learning to optimize energy consumption
+in smart buildings. The project connects to current research in both AI and
+sustainability, addressing the growing need for energy-efficient solutions.
+
+The project is of interest to both the academic community and industry
+partners working on smart city initiatives. Company X is particularly
+interested in this research as it aligns with their sustainability goals.
+
+= Research question
+
+Can machine learning models accurately predict and optimize energy consumption
+patterns in commercial buildings to reduce overall energy usage by at least 20%?
 
 // ... continue with remaining sections
 ```
