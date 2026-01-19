@@ -7,14 +7,10 @@
 
 #show link: underline
 
-#let section(label, content) = {
-  text(weight: "bold", size: 11pt, upper(label))
-  linebreak()
-  content
-  v(1em)
-}
-
-#let proposal(body) = {
+#let proposal(
+  title: "DEGREE PROJECT PROPOSAL",
+  body
+) = {
   set page(
     paper: "a4",
     margin: (left: 2.5cm, right: 2.5cm, top: 2.5cm, bottom: 2.5cm),
@@ -26,9 +22,19 @@
   align(center + horizon)[
     #image("assets/KTH_logo_RGB_bla.svg", width: 40%)
     #v(3em)
-    #text(size: 18pt, weight: "bold")[DEGREE PROJECT PROPOSAL]
+    #text(size: 18pt, weight: "bold", title)
   ]
   pagebreak()
+
+  show heading.where(level: 1): it => {
+    set text(weight: "bold", size: 11pt)
+    block(
+      above: 1.5em,
+      below: 0.6em,
+      sticky: true,
+      upper(it.body)
+    )
+  }
 
   // ---- Main content ----
   body
