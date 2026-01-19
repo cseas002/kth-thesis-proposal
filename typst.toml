@@ -1,6 +1,6 @@
 [package]
 name = "unofficial-kth-thesis-proposal"
-version = "0.1.0"
+version = "0.2.0"
 entrypoint = "src/lib.typ"
 authors = ["Christoforos Seas <@cseas002>"]
 license = "MIT"

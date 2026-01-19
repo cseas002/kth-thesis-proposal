@@ -9,7 +9,7 @@
 
 #let proposal(
   title: "DEGREE PROJECT PROPOSAL",
-  body
+  body,
 ) = {
   set page(
     paper: "a4",
@@ -29,10 +29,10 @@
   show heading.where(level: 1): it => {
     set text(weight: "bold", size: 11pt)
     block(
-      above: 1.5em,
-      below: 0.6em,
+      above: 1em,
+      below: 1em,
       sticky: true,
-      upper(it.body)
+      upper(it.body),
     )
   }
 

@@ -1,7 +1,7 @@
-#import "@preview/unofficial-kth-thesis-proposal:0.1.0": proposal, section
+#import "@preview/unofficial-kth-thesis-proposal:0.2.0": proposal
 
 #show: proposal.with(
-  title: "DEGREE PROJECT PROPOSAL" // default value, does not have to be declared
+  title: "DEGREE PROJECT PROPOSAL", // default value, does not have to be declared
 )
 
 = Name and e-mail address of the student
